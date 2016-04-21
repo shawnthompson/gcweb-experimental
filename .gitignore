@@ -21,3 +21,5 @@ Thumbs.db
 *.orig
 *.tmp
 *.log
+node_modules/
+bower_components/
