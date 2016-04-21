@@ -1,0 +1,54 @@
+---
+{
+	"title": "[Thème]",
+	"language": "fr",
+	"altLangPrefix": "theme",
+	"pageclass": "secondary",
+	"breadcrumb": [
+		{ "title": "Accueil", "link": "http://www.canada.ca/fr/index.html" }
+	],
+	"dateModified": "2014-10-24",
+	"share": "true",
+	"deptfeature": true,
+	"pagetag": "1 ou 2 phrases d’introduction qui définissent les sujets et les tâches principales qui peuvent être consultés sur cette page."
+}
+---
+<div class="row profile">
+	<div class="col-md-5">
+		<h1 property="name" id="wb-cont">{{{title}}}</h1>
+		<p class="pagetag">{{pagetag}}</p>
+		{{>follow}}
+	</div>
+	<div class="col-md-7">
+		{{>carousel-small}}
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4 mrgn-tp-lg pull-right">
+		{{>most-requested}}
+	</div>
+	<section class="col-md-8 pull-left mrgn-bttm-lg">
+		<h2>Services et renseignements</h2>
+		<div class="row">
+			{{>theme-topic}}
+			{{>theme-topic}}
+			<div class="clearfix"></div>
+			{{>theme-topic}}
+			{{>theme-topic}}
+			<div class="clearfix"></div>
+			{{>theme-topic}}
+			{{>theme-topic}}
+			<div class="clearfix"></div>
+			{{>theme-topic}}
+			{{>theme-topic}}
+			<div class="clearfix"></div>
+			{{>theme-topic}}
+			{{>theme-topic}}
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<div class="clr-rght-md clr-rght-lg"></div>
+	<div class="pull-right col-md-4">
+		{{>more-info}}
+	</div>
+</div>
